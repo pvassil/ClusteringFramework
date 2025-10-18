@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="algorithms.DBSCANClusteringTest" time="0.04" tests="2" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="D:\Users\pvassil\RESEARCH\Github\ClusteringFramework\target\test-classes;D:\Users\pvassil\RESEARCH\Github\ClusteringFramework\target\classes;C:\Users\pvassil\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\pvassil\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pvassil\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\pvassil\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pvassil\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\pvassil\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
+    <property name="java.vm.vendor" value="OpenLogic-OpenJDK"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\pvassil\AppData\Local\Temp\surefire1989518542080598175\surefirebooter1547939285763141251.jar C:\Users\pvassil\AppData\Local\Temp\surefire1989518542080598175 2025-08-25T19-54-18_306-jvmRun1 surefire7017444985712779587tmp surefire_02752503412943586925tmp"/>
+    <property name="surefire.test.class.path" value="D:\Users\pvassil\RESEARCH\Github\ClusteringFramework\target\test-classes;D:\Users\pvassil\RESEARCH\Github\ClusteringFramework\target\classes;C:\Users\pvassil\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.9.1\junit-jupiter-api-5.9.1.jar;C:\Users\pvassil\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\pvassil\.m2\repository\org\junit\platform\junit-platform-commons\1.9.1\junit-platform-commons-1.9.1.jar;C:\Users\pvassil\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\pvassil\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.9.1\junit-jupiter-engine-5.9.1.jar;C:\Users\pvassil\.m2\repository\org\junit\platform\junit-platform-engine\1.9.1\junit-platform-engine-1.9.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\pvassil"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.home" value="C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre"/>
+    <property name="basedir" value="D:\Users\pvassil\RESEARCH\Github\ClusteringFramework"/>
+    <property name="file.separator" value="\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\pvassil\AppData\Local\Temp\surefire1989518542080598175\surefirebooter1547939285763141251.jar"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\resources.jar;C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\rt.jar;C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\sunrsasign.jar;C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\jsse.jar;C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\jce.jar;C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\charsets.jar;C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\jfr.jar;C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\classes"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="1.8.0_402-402-b06"/>
+    <property name="user.name" value="pvassil"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\endorsed"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\pvassil\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\pvassil\AppData\Local\Temp\"/>
+    <property name="java.version" value="1.8.0_402-402"/>
+    <property name="user.dir" value="D:\Users\pvassil\RESEARCH\Github\ClusteringFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jdk-14.0.2/bin/server;C:/Program Files/Java/jdk-14.0.2/bin;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Program Files\Java\jdk-21;C:\Program Files\Java\jdk-21\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Python38-32\Scripts\;C:\Program Files (x86)\Python38-32\;C:\Program Files (x86)\Python36-32\Scripts\;C:\Program Files (x86)\Python36-32\;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Pandoc\;C:\WINDOWS\System32\OpenSSH\;C:\spark-2.3.1-bin-hadoop2.7\bin;C:\Program Files\Maven\apache-maven-3.6.3\bin;C:\Program Files (x86)\PDFtk\bin\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Gemalto\Classic Client\BIN;C:\Program Files (x86)\Gemalto\Classic Client\BIN;C:\Program Files\Graphviz\bin;C:\Program Files\doxygen\bin;C:\Program Files\Git\cmd;C:\Program Files\Python312\;C:\Program Files\Python312\Scripts\;C:\Program Files\Gradle\gradle-8.10.1\bin;C:\Users\pvassil\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk-21\bin;C:\spark-2.3.1-bin-hadoop2.7\bin;C:\spark-2.3.1-bin-hadoop2.7\bin;C:\Program Files\MySQL\MySQL Shell 8.0\bin\;C:\Program Files (x86)\Brackets\;d:\Programs\MiKTeX\miktex\bin\x64\;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2024.2\bin;;C:\Users\pvassil\AppData\Local\Programs\Microsoft VS Code\bin;;C:\Program Files\JetBrains\IntelliJ IDEA 2024.2.1\bin;;C:\Users\pvassil\eclipse\jee-2022-06\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="OpenLogic-OpenJDK"/>
+    <property name="java.vm.version" value="25.402-b06"/>
+    <property name="java.specification.maintenance.version" value="5"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\openlogic-openjdk-8u402-b06-windows-64\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="52.0"/>
+  </properties>
+  <testcase name="testBasicDBSCAN" classname="algorithms.DBSCANClusteringTest" time="0.032"/>
+  <testcase name="testNoisePoints" classname="algorithms.DBSCANClusteringTest" time="0"/>
+</testsuite>

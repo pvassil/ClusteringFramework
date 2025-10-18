@@ -1,0 +1,9 @@
+algorithms\DBSCANClusteringTest.class
+service\ClusteringManagerTest.class
+distanceFunctions\EditDistanceTest.class
+algorithms\DistanceMatrixTest.class
+distanceFunctions\DTWDistanceTest.class
+algorithms\HierarchicalAgglomerativeClusteringTest.class
+service\loaders\DataLoaderTest.class
+algorithms\KMeansClusteringTest.class
+algorithms\KMedoidsClusteringTest.class
